@@ -22,7 +22,7 @@ Route::middleware('auth:sanctum')->group(function () {
      * User logout route
      */
     Route::post('logout', [AuthController::class, 'logout']);
-
+    
     /**
      * =========4===========
      * Books CRUD routes
